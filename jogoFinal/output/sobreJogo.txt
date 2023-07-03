@@ -1,0 +1,17 @@
+O jogo é baseado em um tabuleiro de jogo de 5x5 posições. Existem três tipos de embarcações no jogo:
+
+    Porta-aviões: É uma embarcação de tamanho 3. Pode ser posicionada verticalmente ou horizontalmente.
+
+    Submarino: É uma embarcação de tamanho 2. Pode ser posicionada verticalmente ou horizontalmente.
+
+    Navio: É uma embarcação de tamanho 1.
+
+O objetivo do jogo é destruir todas as embarcações no menor número de tiros possível.
+
+As posições das embarcações são geradas aleatoriamente no tabuleiro.
+
+O jogador faz um tiro escolhendo uma posição no tabuleiro. Se a posição escolhida contiver uma embarcação ou parte de uma embarcação, ela é considerada atingida por uma bomba. Caso contrário, se a posição não contiver uma embarcação, a bomba cai no mar.
+
+Após cada tiro, o jogo exibe uma mensagem informando se o jogador acertou uma embarcação ou não. Se o jogador destruir uma embarcação por completo, uma mensagem é exibida informando qual embarcação foi destruída. O jogo continua até que todas as embarcações sejam destruídas.
+
+No final do jogo, o número total de tiros realizados pelo jogador é exibido.
